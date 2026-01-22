@@ -9,4 +9,8 @@ public class AfricanParrot extends Parrot {
     public double getSpeed() {
         return Math.max(0, getBaseSpeed() - getLoadFactor() * numberOfCoconuts);
     }
+
+    public String getCry() {
+        return "Sqaark!";
+    }
 }

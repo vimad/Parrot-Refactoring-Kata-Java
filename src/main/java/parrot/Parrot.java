@@ -23,6 +23,7 @@ public abstract class Parrot {
     }
 
     public abstract double getSpeed();
+    public abstract String getCry();
 
     public double getBaseSpeed(double voltage) {
         return Math.min(24.0, voltage * getBaseSpeed());
@@ -36,11 +37,4 @@ public abstract class Parrot {
         return 12.0;
     }
 
-    public String getCry() {
-        return switch (type) {
-            case EUROPEAN -> "Sqoork!";
-            case AFRICAN -> "Sqaark!";
-            case NORWEGIAN_BLUE -> voltage > 0 ? "Bzzzzzz" : "...";
-        };
-    }
 }

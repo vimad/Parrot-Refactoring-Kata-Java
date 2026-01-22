@@ -9,4 +9,8 @@ public class EuropeanParrot extends Parrot {
     public double getSpeed() {
         return getBaseSpeed();
     }
+
+    public String getCry() {
+        return "Sqoork!";
+    }
 }
