@@ -14,4 +14,7 @@ public class AfricanParrot extends Parrot {
         return "Sqaark!";
     }
 
+    public double getLoadFactor() {
+        return 9.0;
+    }
 }
