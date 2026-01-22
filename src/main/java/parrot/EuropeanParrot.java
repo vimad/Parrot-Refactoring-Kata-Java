@@ -2,8 +2,7 @@ package parrot;
 
 public class EuropeanParrot extends Parrot {
 
-    public EuropeanParrot(boolean isNailed) {
-        super(isNailed);
+    public EuropeanParrot() {
     }
 
     public double getSpeed() {
