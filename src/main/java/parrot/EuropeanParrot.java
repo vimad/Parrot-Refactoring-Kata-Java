@@ -2,8 +2,8 @@ package parrot;
 
 public class EuropeanParrot extends Parrot {
 
-    public EuropeanParrot(double voltage, boolean isNailed) {
-        super(voltage, isNailed);
+    public EuropeanParrot(boolean isNailed) {
+        super(isNailed);
     }
 
     public double getSpeed() {
