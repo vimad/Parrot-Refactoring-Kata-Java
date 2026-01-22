@@ -2,8 +2,11 @@ package parrot;
 
 public class AfricanParrot extends Parrot {
 
+    public final int numberOfCoconuts;
+
     public AfricanParrot(int numberOfCoconuts, double voltage, boolean isNailed) {
-        super(numberOfCoconuts, voltage, isNailed);
+        super(voltage, isNailed);
+        this.numberOfCoconuts = numberOfCoconuts;
     }
 
     public double getSpeed() {
